@@ -1,0 +1,49 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "ImpactVal",
+            "request": "launch",
+            "mainClass": "ImpactVal",
+            "projectName": "ImpactValEXE_6dc7f54c"
+        },
+        {
+            "type": "java",
+            "name": "ValStats",
+            "request": "launch",
+            "mainClass": "ValStats",
+            "projectName": "ImpactValEXE_6dc7f54c"
+        },
+        {
+            "type": "java",
+            "name": "ConsoleRunner",
+            "request": "launch",
+            "mainClass": "ConsoleRunner",
+            "projectName": "ImpactValEXE_6dc7f54c"
+        },
+        {
+            "type": "java",
+            "name": "tester",
+            "request": "launch",
+            "mainClass": "tester",
+            "projectName": "ImpactValEXE_6dc7f54c"
+        },
+        {
+            "type": "java",
+            "name": "CollectData",
+            "request": "launch",
+            "mainClass": "CollectData",
+            "projectName": "ImpactValEXE_6dc7f54c"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        }
+    ]
+}
