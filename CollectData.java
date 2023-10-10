@@ -48,12 +48,12 @@ public class CollectData {
             } else {
                 this.Curr_Rank = k.get(0).text();
                 this.Peak_Rank = k.get(1).text();
-                this.KD_Ratio = k.get(12).text();
-                this.Avg_Dmg = k.get(11).text();
-                this.HeadShot_Per = k.get(13).text();
-                this.Agents = new String[] { k.get(28).text(), k.get(35).text(), k.get(42).text() };
-                this.ACS = k.get(21).text();
-                this.Win_Rate = k.get(14).text();
+                this.KD_Ratio = k.get(10).text();
+                this.Avg_Dmg = k.get(9).text();
+                this.HeadShot_Per = k.get(11).text();
+                this.Agents = new String[] { k.get(26).text(), k.get(33).text(), k.get(40).text() };
+                this.ACS = k.get(19).text();
+                this.Win_Rate = k.get(12).text();
             }
         } catch (IOException e) {
             System.out.println("Invalid User Entry");
