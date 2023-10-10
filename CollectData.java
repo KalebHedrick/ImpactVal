@@ -75,9 +75,4 @@ public class CollectData {
             System.out.println("Could not print because the tracker was invalid.");
         }
     }
-
-    public int calculateImpactPercent() {
-
-        return 0;
-    }
 }
